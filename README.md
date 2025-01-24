@@ -32,8 +32,17 @@ This Python script allows us to generate a customized resume in PDF format with 
 ## Install the dependencies
     
     pip install fpdf
+
+## Ensure Fonts Are Available
+Font Files Included: The following font files are included in the repository:
+DejaVuSans-Bold.ttf
+DejaVuSans-BoldOblique.ttf
+DejaVuSans.ttf
+Ensure that these font files are in the same directory as resume_generator.py or in a folder accessible from your script.
+
+
 ## Usage
-Run the script with the desired arguments:
+Once everything is set up, you can generate your customized resume by running:
 
     python resume_generator.py --font-size <size> --font-color <color> --background-color <color>
 ## Output
