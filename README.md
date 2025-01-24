@@ -30,12 +30,12 @@ This Python script allows us to generate a customized resume in PDF format with 
    cd resume-generator
 
 ## Install the dependencies
-    ```bash
+    
     pip install fpdf
 ## Usage
 Run the script with the desired arguments:
-   
-        python resume_generator.py --font-size <size> --font-color <color> --background-color <color>
+
+    python resume_generator.py --font-size <size> --font-color <color> --background-color <color>
 ## Output
 The script generates a PDF file with the customized options and saves it in the project directory.
 
